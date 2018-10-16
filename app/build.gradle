@@ -18,7 +18,14 @@ android {
         }
     }
 }
-
+//Signing configurations for build variants "release"
+/*signingConfigs {
+    release {
+        storePassword "29091994"
+        keyAlias "key0"
+        keyPassword "29091994"
+    }
+}*/
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
